@@ -1,0 +1,19 @@
+# NLST participant-level data
+data/
+**/ppc-observed.csv
+psis-*/resample/
+logs/
+
+# Output files - include some participant-level data and are large
+output/
+
+# Manuscript
+manuscript/
+
+# Build products
+__pycache__/
+*.so
+*.hpp
+nsclc-model-marginal
+sclc-model
+
